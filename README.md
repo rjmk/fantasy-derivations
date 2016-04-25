@@ -1,11 +1,13 @@
 # fantasy-derivations
 
-The [fantasy-land](fantasy-land) spec only requires ADTs to define the minimum
+The [fantasy-land][fantasy-land] spec only requires ADTs to define the minimum
 set of methods necessary for its type. Others can be derived. Fantasyland
 gives the code necessary for the derivations, but leaves it up to either the
 implementer or consumer to put them to use. `fantasy-derivations` allows you to
 access methods on various ADTs that can support them without worrying whether
 they are in fact defined.
+
+[fantasy-land]: https://github.com/fantasyland/fantasy-land
 
 ## Example
 
