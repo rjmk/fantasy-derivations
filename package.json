@@ -1,0 +1,32 @@
+{
+  "name": "fantasy-derivations",
+  "version": "0.0.0",
+  "description": "The fantasy-land spec allows for ADTs not to define certain functions when they are derivable from those they must define. This module is for ensuring you can always use a method if it is defined or derivable",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjmk/fantasy-derivations.git"
+  },
+  "keywords": [
+    "ADT",
+    "fantasyland",
+    "derivation",
+    "fallback",
+    "dispatch"
+  ],
+  "author": "rjmk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjmk/fantasy-derivations/issues"
+  },
+  "homepage": "https://github.com/rjmk/fantasy-derivations#readme",
+  "dependencies": {
+    "fantasy-land": "^0.2.1"
+  },
+  "devDependencies": {
+    "jsverify": "^0.7.1"
+  }
+}
